@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/LNEEBG.png);
+	background-image: url(./img/Non-Form.JPG);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -282,8 +282,11 @@ p {
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
+	gap: 20px;
 }
 #services .service-item {
+	flex-basis: calc(25% - 40px);
+	height: auto;
 	flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
@@ -297,6 +300,7 @@ p {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+	text-align: center;
 }
 #services .service-item::after {
 	content: '';
@@ -318,10 +322,22 @@ p {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
+	text-transform: uppercase;
 }
 #services .service-item p {
 	color: white;
 	text-align: left;
+}
+@media (max-width: 1024px) {
+    #services .service-item {
+        flex-basis: calc(50% - 40px); /* Menyesuaikan menjadi 2 kotak per baris */
+    }
+}
+
+@media (max-width: 768px) {
+    #services .service-item {
+        flex-basis: calc(100% - 40px); /* Menyesuaikan menjadi 1 kotak per baris */
+    }
 }
 /* End Services Section */
 
