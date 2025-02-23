@@ -343,6 +343,7 @@ p {
 /* End Services Section */
 
 /* Projects section */
+
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
@@ -507,6 +508,102 @@ p {
 	font-weight: 500;
 }
 /*End contact Section */
+
+/* Whatsapp */
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Jarak antara ikon dan teks */
+    padding: 12px 20px;
+    background-color: #25d366; /* Warna khas WhatsApp */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s;
+}
+
+.whatsapp-button img {
+    width: 24px; /* Ukuran ikon */
+    height: 24px;
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebe5d; /* Warna lebih gelap saat hover */
+}
+
+/* Email */
+.email-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Jarak antara ikon dan teks */
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s;
+	margin: 10px;
+	background-color: #D14836;
+	color: white;
+}
+
+.email-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.email-button:hover {
+    background-color: #ff100d; /* Warna lebih gelap saat hover */
+}
+
+/* Instagram */
+.insta-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Jarak antara ikon dan teks */
+    padding: 12px 20px;
+    background-color:#00ff00; /* Warna khas email (merah) */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s;
+	margin: 10px;
+	background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+	color: white;
+
+}
+
+.insta-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.insta-button:hover {
+    background-color: #ff100d; /* Warna lebih gelap saat hover */
+}
+
+.icon {
+    width: 50px;  /* Sesuaikan ukuran ikon */
+    height: 50px; /* Sesuaikan ukuran ikon */
+    border-radius: 12px; /* Sudut lebih cekung */
+    object-fit: cover; /* Pastikan gambar tidak terdistorsi */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Tambahkan efek bayangan agar lebih menarik */
+    transition: 0.3s ease-in-out; /* Animasi halus saat hover */
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Efek sedikit membesar saat hover */
+}
 
 /* Footer */
 #footer {
