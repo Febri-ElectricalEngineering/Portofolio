@@ -549,7 +549,7 @@ p {
     border: none;
     transition: 0.3s;
 	margin: 10px;
-	background-color: #D14836;
+	background: linear-gradient(45deg, #4a90e2, #007bff, #0056b3);
 	color: white;
 }
 
@@ -559,7 +559,7 @@ p {
 }
 
 .email-button:hover {
-    background-color: #ff100d; /* Warna lebih gelap saat hover */
+    background-color: #ff7f00; /* Warna lebih gelap saat hover */
 }
 
 /* Instagram */
@@ -569,7 +569,7 @@ p {
     justify-content: center;
     gap: 10px; /* Jarak antara ikon dan teks */
     padding: 12px 20px;
-    background-color:#00ff00; /* Warna khas email (merah) */
+    background-color:#ff0022; /* Warna khas email (merah) */
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -589,7 +589,7 @@ p {
 }
 
 .insta-button:hover {
-    background-color: #ff100d; /* Warna lebih gelap saat hover */
+    background-color: #000000; /* Warna lebih gelap saat hover */
 }
 
 .icon {
