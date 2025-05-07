@@ -315,8 +315,8 @@ p {
 	z-index: -1;
 }
 #services .service-bottom .icon {
-	height: 80px;
-	width: 80px;
+	height: 120px;
+	width: 120px;
 	margin-bottom: 20px;
 }
 #services .service-item h2 {
@@ -331,7 +331,7 @@ p {
 }
 @media (max-width: 1024px) {
     #services .service-item {
-        flex-basis: calc(25% - 40px); /* Menyesuaikan menjadi 2 kotak per baris */
+        flex-basis: calc(50% - 40px); /* Menyesuaikan menjadi 2 kotak per baris */
     }
 }
 
